@@ -5,10 +5,10 @@ export default class Input extends React.Component {
   constructor(props) {
     super(props);
   }
-  handleOnChange(e) {
-  }
+  handleOnChange(e) {}
   render() {
-    return (<div />)
+    return <div />;
+  }
 }
 
 Input.defaultProps = {
