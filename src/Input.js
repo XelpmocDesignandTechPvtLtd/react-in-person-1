@@ -4,6 +4,9 @@ import PropTypes from "prop-types";
 export default class Input extends React.Component {
   constructor(props) {
     super(props);
+     this.state = {
+          value: "default"
+        };
   }
   handleOnChange(e) {}
   render() {
@@ -11,6 +14,6 @@ export default class Input extends React.Component {
   }
 }
 
-Input.defaultProps = {
+/*Input.defaultProps = {
   value: "default"
-};
+};*/

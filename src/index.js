@@ -6,3 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+
+export default {
+  Checkbox: require('./checkbox')/*, Radio: require('./radio')*/
+};
