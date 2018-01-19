@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import Input from "./Input.js";
+import Checkbox from "./Checkbox.js";
 import "./App.css";
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Input />
+        <Checkbox />
       </div>
     );
   }
