@@ -1,29 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
-
 export default class Input extends React.Component {
   constructor(props) {
     super(props);
-    if(props.value == "hello"){
-      this.state = {value:"7"};
-    }
-    else{
-      this.state = {value:props.value};
-    }
-    this.handleOnChange = this.handleOnChange.bind(this);
+    this.state = {value:this.props.value};
   }
-  handleOnChange(e) {
-    this.setState({value:e});
+  handleOnChange(event) {
+      return this.setState({value:event.target.value});
   }
   render() {
-    return (
-      <div>
-        <input onChange={event=>this.handleOnChange(event.target.value)} value={this.state.value}/>
-      </div>
-    );
+      const {value} = this.props;
+      return (
+          <input 
+                onChange={(event)=>this.handleOnChange(event)}
+                value={this.state.value}/>
+      );
   }
 }
-
 Input.defaultProps = {
   value: "default"
 };
