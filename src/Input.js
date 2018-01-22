@@ -14,7 +14,6 @@ export default class Input extends React.Component {
 		});
 	}
 	render() {
-		const { value } = this.props;
 		return <input onChange={e => this.handleOnChange(e)} value={this.state.value} />;
 	}
 }
