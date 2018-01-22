@@ -1,17 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-// this is a controlled component
-
 export default class Checkbox extends React.Component {
   constructor(props) {
     super(props);
-    // this.state = {
-    //   value: ""
-    // };
 
     this.handleChange = this.handleChange.bind(this);
-    // this.handleChange = () => this.handleChange();
   }
 
   handleChange(val) {
