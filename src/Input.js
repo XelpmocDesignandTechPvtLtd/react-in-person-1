@@ -21,6 +21,7 @@ export default class Input extends React.Component {
 Input.propTypes = {
   onChange: PropTypes.func,
 };
+
 Input.defaultProps = {
   value: 'default'
 };
