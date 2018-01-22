@@ -5,13 +5,10 @@ export default class Checkbox extends Component {
     super(props);
   }
   render() {
-      const {disabled,checked,value,onChange} = this.props;
       return (
         <input 
-          type="checkbox" 
-          checked={checked}
-          onChange={onChange}
-          disabled={disabled}/>
+          type="checkbox"
+          {...this.props}/>
       );
   }
 }
