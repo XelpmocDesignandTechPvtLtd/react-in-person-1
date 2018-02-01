@@ -7,19 +7,16 @@ export default class Input extends React.Component {
     this.state = {
       value: "default"
     };
-    // this.handleOnChange = this.handleOnChange.bind(this);
-    this.handleOnChange = () => this.handleOnChange();
   }
-  handleOnChange(e) {
+  handleOnChange = e => {
     this.setState({
       value: e.target.value
     });
-  }
+  };
   render() {
     return <div onChange={this.handleOnChange} />;
   }
 }
-
 Input.defaultProps = {
   value: "default"
 };
