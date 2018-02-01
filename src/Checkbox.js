@@ -1,4 +1,4 @@
-import React from "React";
+import React from "react";
 import PropTypes from "prop-types";
 
 // this is a controlled component
@@ -13,7 +13,7 @@ export default class Checkbox extends React.Component {
   handleChange(val) {}
 
   render() {
-    return <input type="checkbox" />;
+    return <div />;
   }
 }
 
