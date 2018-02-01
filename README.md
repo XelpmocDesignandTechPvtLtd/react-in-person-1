@@ -1,9 +1,23 @@
 ### React In Person Question 1
 
 
-In this interview question, you will write two basic react components.
+Assignment: For this particular app, make the app execute in such a way that all the
 
-It will have to pass the tests that are supplied.
+tests provided should be passed successfully.
+
+NOTE:
+
+1. One should follow ES6 standards while updating the app.
+
+2. Default props provided, should not be changed.
+
+3. At the moment tests are passed, open a PR in GIT with a screenshot of terminal in which 
+
+   tests are passed.
+
+4. Avoid changing the properties of App.
+
+5. In PR, avoid alerts/consoles. 
 
 
 ## Running tests
