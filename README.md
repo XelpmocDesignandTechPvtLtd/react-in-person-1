@@ -34,3 +34,14 @@ npm test
 ```
 npm start
 ```
+
+
+## Example
+
+Input
+
+![](https://github.com/XelpmocDesignandTechPvtLtd/react-in-person-1/blob/master/src/test.gif)
+
+Checkbox
+
+![](https://github.com/XelpmocDesignandTechPvtLtd/react-in-person-1/blob/master/src/checkboxTest.gif)
